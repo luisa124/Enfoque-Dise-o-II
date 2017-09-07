@@ -1,0 +1,49 @@
+* {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: opx;
+}
+picture img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 800px) and (max-width: 1500px) {
+    [class="container"]{
+        width: 100%;
+        align-content: center;
+        margin-top: 30%;
+    }
+   body {
+    background-image: url(../img/Copia-de-dawn.png);
+       width: 100%;
+}
+    
+}
+@media (min-width: 535px) and (max-width: 824px) {
+    [class="container"]{
+        width: 100%;
+        align-content: center;
+        margin-top: 30%;
+    }
+    body {
+        background-image: url(../img/Copia-de-Landscape.jpg);
+    }
+    
+}
+@media (min-width: 200px) and (max-width: 534px) {
+    [class="container"]{
+        width: 100%;
+        align-content: center;
+        margin-top: 30%;
+    }
+    body {
+        background-image: url(../img/Copia-de-maxresdefault.jpg);
+    }
+}
